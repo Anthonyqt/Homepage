@@ -1,22 +1,44 @@
-
 body{
-    background: rgba(111, 110, 110, 0.4);
+    background: white;
     font-family: 'Poppins', sans-serif;  
-    
 }
 .navbar{
     width: 100%;
     height: 80px;
-    background-color: white;
+    background: #FFF;
+    box-shadow: 30px 4px 24px 0px rgba(0, 0, 0, 0.25);
 }
 .cons{
-    margin-top: 20px;
-    width: 90%;
+    background: linear-gradient(110deg, rgba(224, 219, 219, 0.00) -12.99%, #E0DBDB 13.65%, rgba(224, 219, 219, 0.89) 73.34%, rgba(226, 215, 215, 0.52) 96.07%);
+    width: 100%;
     height: 800px;
-    background-color: white;
-    
 }
- .title{
+
+/* 1ST PAGE*/
+.conspage1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures{
+width: 100%;
+height: 800px;
+}
+
+.texts{
+width: 100%;
+height: 800px;
+padding: 30px 30px 0 30px;
+}
+
+/* Page 2*/
+
+.cons2{
+    background: linear-gradient(241deg, rgba(180, 167, 165, 0.20) -10.07%, rgba(25, 25, 25, 0.20) 0.69%, rgba(0, 0, 0, 0.00) 25.86%), linear-gradient(185deg, rgba(226, 215, 215, 0.52) -25.88%, #E0DBDB 11.96%, rgba(224, 219, 219, 0.89) 104.37%, rgba(224, 219, 219, 0.00) 113.87%);
+}
+
+.title{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -25,6 +47,7 @@ body{
 
 .card{
     margin: 0 30px 0 30px;
+    background:white ;
 }
 h5{
     text-align: center;
@@ -35,4 +58,20 @@ h5{
     justify-content: center;
 }
 
-/* Second Page */
+.card-text{
+    text-align: center;
+}
+/* Third Page */
+
+
+table tr td{
+    width: 100%;
+    height: 100px;
+    padding: 15px 15px 15px 15px;
+}
+
+table tr td img:hover{
+    width: 105%;
+    transform: scale(1.1); 
+    transition: 0.3s ease;
+}
